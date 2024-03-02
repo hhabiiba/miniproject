@@ -4,7 +4,7 @@
   "description": "Package manager for the first Assignment in the Mini Project Roadmap",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "cd back-end && nodemon server.js",
     "test": "cross-env NODE_ENV=test jest --verbose -runInBand"
   },
   "author": "Student",
